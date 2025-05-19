@@ -1,0 +1,23 @@
+$orange: hsl(25, 97%, 53%);
+$white: hsl(0, 100%, 100%);
+$grey_500: hsl(217, 12%, 63%);
+$grey_900: hsl(213, 19%, 18%);
+$grey_950: hsl(216, 12%, 8%);
+$grey_shadow: hsl(216 12% 21% / 1);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    background-color: $grey_950;
+    color: $grey_500;
+}
+
+p {
+    font-size: 15px;
+}
