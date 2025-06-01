@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/main.js" defer></script>
 
 </head>
 <body>
@@ -27,7 +28,7 @@
           <legend>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</legend>
           
           <div class="button-grp">
-            <button type="button" value="1" name="rating">1</button>
+            <button type="button" value="1" name="rating" aria-required="true">1</button>
             <button type="button" value="2" name="rating">2</button>
             <button type="button" value="3" name="rating">3</button>
             <button type="button" value="4"name="rating">4</button>
@@ -35,15 +36,15 @@
           </div>
         </fieldset>
 
-        <button type="submit">SUBMIT</button>
+        <button type="submit" id="submitBtn">SUBMIT</button>
       </form>
     </section>
 
-    <section id="thankYouStateContainer" hidden>
+    <section id="thankYouStateContainer">
       <img src="./images/illustration-thank-you.svg" alt=""/>
-      <p>You selected <span id="customerRating"></span> out of 5</p>
+      <div class="rating-selection-wrapper"><p class="rating-selection">You selected <span id="customerRating"></span> out of 5</p></div>
       <h2>Thank you!</h2>
-      <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+      <p class="thank-you-msg">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
     </section>
     <footer></footer>
   </main>
