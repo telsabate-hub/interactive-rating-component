@@ -1,0 +1,65 @@
+@media screen and (max-width: 711px) {
+    main {
+        margin: 155px 0;
+    }
+
+    section {
+        max-width: 330px;
+        padding: 25px 25px 30px;
+    }
+
+    .icon-star {
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    legend {
+        font-size: 0.875rem;
+        width: 280px;
+    }
+
+    .button-grp {
+        column-gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    button[type=button] {
+        font-size: 0.875rem;
+        padding: 0 18px;
+        height: 44px;
+    }
+
+    button[type=submit] {
+        border-radius: 30px;
+    }
+
+    #thankYouStateContainer {
+        padding: 35px 25px 40px;
+
+        img {
+            width: 55%;
+        }
+
+        h2 {
+            font-size: 1.5em;
+        }
+    }
+
+    .rating-selection-wrapper {
+        width: 60%;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .rating-selection {
+        font-size: 0.875rem;
+    }
+
+    .thank-you-msg {
+        font-size: 0.875rem;
+    }
+}
